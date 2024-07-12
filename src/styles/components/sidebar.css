@@ -1,0 +1,12 @@
+.sidebar{
+	background: var(--sidebar-bg);
+	display: flex;
+	width: 200px;
+
+	nav {
+		display: flex;
+		flex-direction: column;
+		padding: 10px 0;
+		width: 100%;
+	}
+}

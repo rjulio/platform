@@ -1,0 +1,20 @@
+.input-group{
+	display:flex;
+	flex-direction: column;
+	gap: 5px;
+
+	&:has(+ .input-group) { margin-bottom: 20px; }
+
+	.input-group__label{
+		color: #424242;
+		font-size: 1.2rem;
+	}
+
+	.input-group__input{
+		border: solid 1px #424242;
+		border-radius: 4px;
+		font-size: 1.2rem;
+		padding: 2px 4px;
+		outline: none;
+	}
+}

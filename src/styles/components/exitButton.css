@@ -1,0 +1,21 @@
+.exit-button{
+	align-items: center;
+	aspect-ratio: 1/1;
+	background: none;
+	border-radius: 50%;
+	border: none;
+	color: #ffffff;
+	cursor: pointer;
+	display: flex;
+	font-size: 1.2rem;
+	height: 40px;
+	padding: 5px 10px;
+	text-decoration: none;
+
+	&:hover{ background: #00000010; }
+
+	svg{
+		color: white;
+		height: 20px;
+	}
+}
